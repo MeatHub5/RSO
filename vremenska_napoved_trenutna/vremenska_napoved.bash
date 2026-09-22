@@ -6,7 +6,7 @@ arhiv="arhiv/$danes"
 mkdir -p "$arhiv"
 while IFS=";" read -r mesto sirina dolzina
 do
-url="$api?latitude=$sirina&longitude=$dolzina&current=temperature_2m"
+url="$api?latitude=$sirina&longitude=$dolzina&current=temperature_2m&timezone=Europe%2FBerlin"
 echo "$url"
 if ! curl -sS --fail --max-time 20 -o "$arhiv/$mesto.json" "$url"; then
 echo "napaka" >&2
