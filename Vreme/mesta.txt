@@ -1,0 +1,9 @@
+# Seznam krajev za poberi_vreme.sh
+# Oblika:  Ime;zemljepisna_sirina;zemljepisna_dolzina   (decimalne stopinje)
+# Vrstni red je vedno: NAJPREJ sirina, POTEM dolzina.
+#
+# Koordinate spodaj so priblizne, zaokrozene na dve decimalki (~1 km natancnosti),
+# kar je za vremensko napoved povsem dovolj. Ce jih zelite preveriti ali dodati
+# svoj kraj, uporabite iskalnik krajev - izpis je ze v pravi obliki:
+Nova-Gorica;45.96;13.64
+Ljubljana;46.06;14.51
