@@ -41,7 +41,7 @@ fi
 # awk "BEGIN{exit !(pogoj)}" vrne izhodno kodo 0, ce pogoj drzi.
 if awk "BEGIN{exit !($PAD > 1)}"; then DEZNIK="DA, vzemi deznik ($PAD mm)"
 else                                    DEZNIK="ni treba (${PAD} mm)"
-fi
+fi  
 
 
 echo "  Obleci: $OBLEKA"

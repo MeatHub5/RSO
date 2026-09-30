@@ -35,5 +35,6 @@ SQL
 echo
 echo "Zagon $ZAGON uvozen v $DB"
 sqlite3 -header -column "$DB" <<'SQL'
-SELECT * FROM trenutno
+SELECT * FROM trenutno;
+SELECT * FROM napoved
 SQL
