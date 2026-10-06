@@ -1,10 +1,8 @@
 cd vreme
 echo "VREME: "
-(bash nasvet.bash; sleep 30) & 
-echo $!
+bash nasvet.bash
 cd ..
 cd novice
 echo "NOVICE: "
-(bash novice.bash; sleep 30) & 
-echo $!
+bash novice.bash
 cd ..

@@ -6,7 +6,7 @@ set -u                                  # ustavi ob nedefinirani spremenljivki
 
 MESTO="${1:-Nova-Gorica}"               # kraj podamo kot argument; privzeto Nova-Gorica
 DANES=$(date +%F)                       # danasnji datum, npr. 2026-09-15
-DB="vreme.db"
+DB="/c/RSO/Vreme/vreme.db"
 
 
 IFS='|' read -r TEMP VLAGA < <(
